@@ -2,6 +2,7 @@
 body {
   background-color: lightgrey;
 }
+
 .row{
   background-color: white;
 }
@@ -15,7 +16,25 @@ body {
   display:table;
   clear: both;
 }
-h1,h2,h3,ul{
+.danielphoto {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  margin-left: 450px;
+  margin-bottom: 20px;
+}
+h1 {
+  margin-bottom: 0px;
+  font-style: oblique;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h2,h3,ul{
   font-style: oblique;
   font-family: sans-serif;
 }
