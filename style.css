@@ -1,1 +1,30 @@
 /*Personal Web Page Style Sheet */
+body {
+  background-color: lightgrey;
+}
+.row{
+  background-color: white;
+}
+.column {
+  float:left;
+  Width: 50%;
+
+}
+.row:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+h1,h2,h3,ul{
+  font-style: oblique;
+  font-family: sans-serif;
+}
+a:link {
+color:green;
+}
+a:hover {
+  color: lightgreen;
+}
+a:visited {
+  color:darkgrey;
+}
